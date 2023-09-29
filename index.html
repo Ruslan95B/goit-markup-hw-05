@@ -490,7 +490,7 @@
         <div class="subscribe_footer">
           <p class="subscribe_text">Subscribe</p>
           <form class="subscribe_form">
-            <label class="modal_label_subscribe" for="user_subscribe">
+            <label class="modal_label_subscribe" for="user-subscribe">
               <input
                 class="modal_input_subscribe"
                 id="user-subscribe"
@@ -513,9 +513,9 @@
 
     <!--Modal-->
 
-     <div class="backdrop ">
+     <div class="backdrop is-open ">
       <div class="modal">
-        <button class="modal-close-btn">
+        <button class="modal-close-btn" title="button">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons-t.svg#icon-close-white"></use>
           </svg>
@@ -563,29 +563,30 @@
                 <use href="./images/icons-t.svg#icon-email-black"></use>
               </svg>
             </div>
-            <div class="modal-field">
-              <label for="user-comment" class="modal-label">Comment</label
-              ><textarea
-                name="user-comment"
-                id="user-comment"
-                class="modal-textarea"
-                placeholder="Text input"
-              ></textarea>
-            </div>
-            <div class="checkfield">
-              <input
-                id="user-privacy"
-                type="checkbox"
-                class="check-input visually-hidden"
-              />
-              <label for="user-privacy" class="input-check-text">
-                <span class="check-empty">
-                  <svg class="check-icon-t" width="10" height="8">
-                    <use href="./images/icons.svg#icon-vector"></use>
-                  </svg> </span
-                ><a href="" class="input-check-link"></a
-              ></label>
-            </div>
+           
+          </div>
+          <div class="modal-field">
+            <label for="user-comment" class="modal-label">Comment</label
+            ><textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-textarea"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="checkfield">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              class="check-input visually-hidden"
+            />
+            <label for="user-privacy" class="input-check-text">
+              <span class="check-empty">
+                <svg class="check-icon-t" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg> </span
+              ><a href="" class="input-check-link"></a
+            ></label>
           </div>
         </form>
       </div>
